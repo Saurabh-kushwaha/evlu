@@ -10,9 +10,10 @@ function Dashboard() {
       <Routes>
         <Route path='/' element={ <Home/>}/>
         <Route path='prerequsite' element={<Prerequsite/>}>
-            <Route path='info' element={<Info />}/>
-        </Route> 
-            <Route path='register' element={<Register />} />                    
+                <Route path='info' element={<Info />}>
+                <Route path='register' element={<Register />}/>   
+            </Route> 
+        </Route>                  
       </Routes>
     </div>
   );

@@ -1,8 +1,10 @@
 import React from 'react'
-import {Link, Outlet} from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
+import style from './design.module.css'
+
 function Prerequsite() {
   return (
-      <div>Prerequsite
+      <div className={style.box}>Prerequsite
              <div>
             <input type='checkbox' />
             <label>Can you attend 90% of the classess</label>

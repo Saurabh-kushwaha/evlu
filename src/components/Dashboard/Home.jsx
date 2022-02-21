@@ -7,7 +7,7 @@ import style from './design.module.css'
 function Home() {
   const {LogOut} = useContext(GlobleContext)
   return (
-    <div className={style.navbar}>
+    <div className={style.box}>
       <Link to='prerequsite'>Prerequsite</Link>
       <button onClick={LogOut}>LogOut</button>    
     </div>

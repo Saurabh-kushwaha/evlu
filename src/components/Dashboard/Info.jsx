@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
+import style from './design.module.css'
 
 function Info() {
   return (
-    <div>Info
+    <div className={style.box}>Info
         <div>         
             <input type='text' placeholder='first Name' />
           </div>
